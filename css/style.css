@@ -1,0 +1,197 @@
+h1 {
+    text-align: center;
+}
+
+.text-div {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .text-div {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+    }
+}
+
+.text-paragraph {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#eventi {
+    padding: 20px;
+}
+
+#eventi h4 a {
+    text-emphasis: none;
+    text-decoration: none;
+    color: black;
+}
+
+.sticky-main {
+    padding-top: 55px;
+}
+
+
+#gallery {
+    width: 100%;
+    height: 75vh;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+#gallery img {
+    transform: translateY(-25%);
+}
+
+
+@media screen and (max-width: 900px) {
+    #galleria .carousel {
+        height: 40vh;
+    }
+}
+
+
+#appuntamenti-container .card-deck {
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
+
+#appuntamenti-container {
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+#galleria-ubpa {
+    margin-top: 30px;
+}
+
+.descrizione a {
+    color: blue;
+}
+
+#maestri img {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#maestri .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#dove-siamo iframe{
+    margin-top: 5px;
+    width: 100%;
+}
+#dove-siamo, #maestri {
+    margin-top: 50px;
+}
+
+#maestri .card-text {
+    font-size: 17px;
+}
+
+#footer {
+    margin-top: 10px;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#footer p {
+    margin: unset;
+}
+
+a {
+    text-emphasis: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#legal-infos {
+    bottom: 0;
+}
+
+.social-page {
+    margin: 5px 10px;
+}
+
+.btn-ig {
+    background: linear-gradient(90deg, #4F5BD5, #962FBF, #D62976, #FA7E1E, #FA7E1E);
+}
+
+.first-stop {
+    rotation: 45deg;
+    stop-color: #4F5BD5;
+}
+
+.second-stop {
+    rotation: 45deg;
+    stop-color: #962FBF;
+}
+
+.third-stop {
+    rotation: 45deg;
+    stop-color: #D62976;
+}
+
+.fourth-stop {
+    rotation: 45deg;
+    stop-color: #FA7E1E;
+}
+
+.fifth-stop {
+    rotation: 45deg;
+    stop-color: #FA7E1E;
+}
+
+#carousel {
+    width: 100%;
+    height: 25vw;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+#carousel img {
+    transform: translateY(-25%);
+}
+
+@media screen and (max-width: 900px) {
+    #carousel {
+        height: 40vw;
+    }
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    margin-bottom: 300px;
+}
