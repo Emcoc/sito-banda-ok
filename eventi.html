@@ -5,76 +5,61 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="../js/sticky.js" defer></script>
     <link rel="icon" type="image/x-icon" href="/img/favicon-pentagramma.svg">
     <title>Eventi</title>
 </head>
 <body>
     <header>
-        <div id="carosello">
-            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./img/concerto-inverno.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/concerto-inverno2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/pentagramma-ennio-porrino.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
+        <div id="logo">
+            <a href="./index.html">
+                <img src="./img/logo-pentagramma.svg" height="80px" alt="">
+            </a>
         </div>
-
         <div id="nav">
-            <nav id="navbar" class="navbar navbar-expand-lg navbar-light" style="background-color: #C8C9C9; padding-top: 0px; padding-bottom: 0px">
-                <a class="navbar-brand" href="./index.html">
-                    <img src="./img/logo-pentagramma.svg" height="50" width="120" alt="" style="margin-top: 2px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="./eventi.html">EVENTI</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="./una-banda-per-amico.html">UNA BANDA PER AMICO</a>
-                        </li>
-                    </ul>
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+                <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./index.html">HOME</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./eventi.html">EVENTI</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./una-banda-per-amico.html">UNA BANDA PER AMICO</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
     </header>
     <main id="main">
-        <div id="eventi" class="container-fluid">
-            <div class="card-deck">
-                <div class="card">
+        <div id="eventi" class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
                     <img src="./img/concerto-inverno.jpg" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h4><a href="una-banda-per-amico.php">Una banda per amico</a></h4>
+                        <h4><a href="./una-banda-per-amico.html">Una banda per amico</a></h4>
                         <div class="descrizione">
                             <p><strong>Luogo:</strong> Percorso itinerante</p>
                             <p><strong>Data:</strong> Maggio - Giugno 2024</p>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+            </div>
+            <div class="col">
+                <div class="card h-100">
                     <img src="./img/concerto-inverno.jpg" alt="" class="card-img-top">
                     <div class="card-body">
                         <h4>Concerto d'estate 2024</h4>
@@ -84,7 +69,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+            </div>
+            <div class="col">
+                <div class="card h-100">
                     <img src="./img/concerto-inverno.jpg" alt="" class="card-img-top">
                     <div class="card-body">
                         <h4>Concerto d'inverno 2024</h4>
@@ -97,7 +84,6 @@
             </div>
         </div>
     </main>
-
     <footer>
         <div id="footer" class="text-center">
             <div id="follow-us">
