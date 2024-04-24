@@ -36,42 +36,6 @@ h1 {
     padding-top: 55px;
 }
 
-
-#gallery {
-    width: 100%;
-    height: 75vh;
-}
-
-.carousel-inner {
-    height: 100%;
-}
-
-#gallery img {
-    transform: translateY(-25%);
-}
-
-
-@media screen and (max-width: 900px) {
-    #galleria .carousel {
-        height: 40vh;
-    }
-}
-
-
-#appuntamenti-container .card-deck {
-    margin-bottom: 2vh;
-    margin-top: 1vh;
-}
-
-#appuntamenti-container {
-    padding-top: 15px;
-    margin-bottom: 50px;
-}
-
-#galleria-ubpa {
-    margin-top: 30px;
-}
-
 #accordion a {
     color: blue;
     font-size: 90%;
@@ -116,8 +80,6 @@ a {
     text-decoration: none;
     color: black;
 }
-
-
 
 #social {
     display: flex;
@@ -234,3 +196,34 @@ a.img-link{
 #progetto {
     margin-bottom: 50px;
 }
+
+#logo img {
+    height: 100px;
+}
+
+#contatti {
+    margin: 20px 0px;
+}
+
+.contatti-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1300px) {
+    .contatti-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .contatti-body p {
+        margin: 5px 0px;
+    }
+}
+
+.svg-contacts {
+    height: 30px;
+}
+
+
