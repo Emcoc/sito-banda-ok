@@ -74,6 +74,7 @@ h1 {
 
 #accordion a {
     color: blue;
+    font-size: 90%;
 }
 
 #maestri img {
@@ -228,4 +229,8 @@ a.img-link{
 
 #navbar a {
     font-size: 20px;
+}
+
+#progetto {
+    margin-bottom: 50px;
 }
